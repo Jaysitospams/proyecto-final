@@ -1,0 +1,134 @@
+/* Resetea algunos estilos básicos del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.header h3 {
+    margin: 0;
+}
+
+/* Estilo del formulario */
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-container {
+    margin-bottom: 20px;
+}
+
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla th {
+    background-color: #f4f4f4;
+}
+
+/* Estilo para los botones */
+.btn-teal, .btn-blue {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-teal:hover {
+    background-color: #006666;
+}
+
+.btn-blue {
+    background-color: #007bff;
+}
+
+.btn-blue:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los campos de entrada */
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Estilo para el contenedor de totales */
+.totals {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.totals-right div {
+    margin-bottom: 10px;
+}
+
+.totals-right label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Estilo para el área de productos y cliente */
+.product-client {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product, .client {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product fieldset, .client fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.product legend, .client legend {
+    font-weight: bold;
+    padding: 0 10px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+}
